@@ -143,6 +143,7 @@ Routing         : Static
    ping          : 172.10.1.x
  ```
 15. Create SG in Aws test the connection.
+    
     SG → Added route → ICMP for ping and Target is Azure Vnet CIDR.
 
 
