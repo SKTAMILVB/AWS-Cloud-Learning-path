@@ -137,14 +137,16 @@ Routing         : Static
  ```
 14. Create VMs in both Azure and AWS and Test the connection
     
-    From Azure VM
+    Test for Azure 
  ```bash
- ping               : 10.10.1x
-    ```
-    From AWS EC2
+ ping          : 10.10.1.x
+ ```
+
+    Test for AWS
  ```bash
- ping               : 172.10.1.x
-    ```
+ ping          : 172.10.1.x
+ ```
+
 15. Create SG in Aws test the connection.
 
     SG → Added route → ICMP for ping and Target is Azure Vnet CIDR.
